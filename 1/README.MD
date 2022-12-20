@@ -1,6 +1,6 @@
 ## Для починки требуется:
 ### 1. начинать с первого элемента `[0]` в первом `split`
-	это избавит от ошибки IndexError: list index out of range
+ * это избавит от ошибки IndexError: list index out of range
 ```
 re.split('_|-', text)[1]    ->    re.split('_|-', text)[0]
 ```
