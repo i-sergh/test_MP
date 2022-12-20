@@ -13,3 +13,5 @@ if cls in cls._instances    ->    if cls not in cls._instances
 ```
 super().call(*args, **kwargs)    ->    super().__call__(*args, **kwargs)
 ```
+
+bee
